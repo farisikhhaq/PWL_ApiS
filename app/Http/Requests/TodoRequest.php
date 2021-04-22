@@ -2,10 +2,10 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
+use App\Http\Requests\ApiRequest;
 use Illuminate\Http\Request;
 
-class TodoRequest extends FormRequest
+class TodoRequest extends ApiRequest
 {
     /**
      * Determine if the user is authorized to make this request.
